@@ -1,0 +1,68 @@
+
+.body {
+    font-family: Raleway,sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    font-weight: 500;
+    color: black;
+    background-color:white;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    
+}
+.ms-1 {
+    marker-start: 1;
+  }
+  .me-1 {
+    marker-start: 1;
+  }
+
+  .mt-1 {
+    marker-start: 1;
+  }
+  .my-1 {
+    marker-start: 1;
+  }
+
+  .bg-nav-custom {
+  background-color: white;
+  box-shadow: none;
+  }
+  .text-style{
+   font-size: medium;
+   font-weight: bold;
+  }
+ .h1{
+     font-weight: 800;
+     font-style: italic;
+ }
+  .note{
+      background-color: white;
+  }
+  .card-custom {
+    background-color: white;
+    box-shadow: none;
+    
+  }
+  .btn-custom{
+      background-color: rgb(189, 233, 10);
+  }
+  .img-custom{
+      border: none;
+  }
+
+  /* Man image responsive design */
+  @media (max-width: 1200px) {
+    .man-img {
+      display: none;
+    }
+
+    .man-container {
+      width: 0;
+      position: absolute;
+      display: none;
+    }
+  }
+.registro{
+  color: rgb(189, 233, 10);
+}
